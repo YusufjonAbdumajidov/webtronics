@@ -1,0 +1,44 @@
+.aboutContainer{
+    position: relative;
+    width: 100%;
+    padding: 0 12%;
+    padding-bottom: 160px;
+    background-color: $backgroundColor;
+    // border: 1px solid #fff;
+    h1{
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 62px;
+        line-height: 120%;
+        color: #fff;
+    }
+    .aboutWrapper{
+        margin-top: 60px;
+        // border: 1px solid #fff;
+        display: flex;
+        // flex-direction: column;
+        color: #fff;
+        .mentors{
+            display: flex;
+            // border: 1px solid #fff;
+            flex-direction: column;
+            section{
+                display: flex;
+                // flex-direction: column;
+                div{
+                    margin-right: 21px;
+                    img{
+                        border-radius: 50%;
+                    }
+                    &:nth-child(1){
+                        margin-top: 40px;
+                    }
+                    &:nth-child(3){
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
