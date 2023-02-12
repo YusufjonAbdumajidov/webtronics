@@ -1,0 +1,7 @@
+$backgroundColor: #0C102D;
+
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

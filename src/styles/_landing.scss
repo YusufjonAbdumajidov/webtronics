@@ -1,0 +1,61 @@
+.landingContainer{
+    height: 100vh;
+    background-image: url(../assets/images/background_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: $backgroundColor;
+    .into_section{
+        position: relative;
+        margin-top: 18px;
+        // border: 1px solid #fff;
+        height: 60vh;
+        @include center;
+        flex-direction: column;
+        user-select: none;
+        section{
+            @include center;
+            flex-wrap: wrap;
+            h1{
+                font-size: 150px;
+                color: #fff;
+                letter-spacing: 8px;
+                margin-right: 51px;
+            }
+            p{
+                width: 22%;
+                color: #fff;
+                font-size: 16px;
+            }
+            button{
+                height: 72px;
+                width: 288px;
+                @include center;
+                cursor: pointer;
+                font-weight: 600;
+                font-size: 20px;
+                color: #0A1482;
+                background-color: #1ff2ff;
+                border-radius: 8px;
+                outline: none;
+                border: none;
+                margin-right: 24px;
+            }
+        }
+        span{
+            position: absolute;
+            color: #fff;
+            right: 180px;
+            bottom: 10px;
+            font-size: 32px;
+        }
+        .elipse{
+            position: absolute;
+            height: 356px;
+            width: 356px;
+            border: 1px solid #fff;
+            right: 0;
+            bottom: -20%;
+        }
+    }
+}

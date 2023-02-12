@@ -1,0 +1,27 @@
+nav{
+    width: 76%;
+    margin: 0 auto;
+    padding: 37px 0px;
+    @include center;
+    justify-content: space-between;
+    .logo{
+        img{
+            height: 33px;
+            cursor: pointer;
+        }
+    }
+    .navLinks{
+        ul{
+            @include center;
+            li{
+                font-size: 16px;
+                color: #fff;
+                margin: 0 48px;
+                cursor: pointer;
+                &:nth-child(5){
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
